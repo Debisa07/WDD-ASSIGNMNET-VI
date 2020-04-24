@@ -8,25 +8,42 @@ body{
 }
 header,footer{
     padding: 20px;
-    background:darkcyan;
+    background:rgb(255,255,255);
     color: black;
     border-bottom: 20px;
+    margin-left: 14%;
+    margin-right: 14.2%;
+    text-align: left;
 }
 section{
-    width: 40%;
+    width: 50%;
     float:left;
     height:auto;
-    background:grey;
+    background:rgb(255, 255,255);
     margin-left: 190px;
+    
 
 }
+section p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 50px;
+    line-height: 1.3em;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+section h3{
+    text-align: left;
+    color: rgb(87,77,77);
+    margin-left: 3%;
+}
 .right{
-    /* width:35%; */
+    width:22%;
     float:left;
-    height: 400px;
-    background: gray;
-    border-left: 2px solid black;
-    margin-left: 40px;
+    height: 1400px;
+    background:rgb(255, 255,255);
+    /* border-right-color: black; */
+    margin-left: 0px;
 
 }
 .main::after{
@@ -35,7 +52,8 @@ section{
     display: table;
 }
 .main *{
-    border-radius: 10px;
+    /* border-radius: 10px; */
+     border-color: azure;
 }
 .main{
     margin: 10px 0px;
