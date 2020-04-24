@@ -9,4 +9,34 @@ body{
 header,footer{
     padding: 20px;
     background:darkcyan;
+    color: black;
+    border-bottom: 20px;
+}
+section{
+    width: 40%;
+    float:left;
+    height:auto;
+    background:grey;
+    margin-left: 190px;
+
+}
+.right{
+    /* width:35%; */
+    float:left;
+    height: 400px;
+    background: gray;
+    border-left: 2px solid black;
+    margin-left: 40px;
+
+}
+.main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.main *{
+    border-radius: 10px;
+}
+.main{
+    margin: 10px 0px;
 }
