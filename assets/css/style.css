@@ -22,6 +22,31 @@ section{
     background:rgb(255, 255,255);
     margin-left: 190px;
     
+}
+/* section img{
+    text-align: right;
+} */
+
+
+
+.procontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+
+}
+
+
+.proimage img{
+  margin-right: 20px;
+ 
+}
+.protext h2{
+
+}
+.protext p{
+  position: relative;
 
 }
 section p{
@@ -40,10 +65,18 @@ section h3{
 .right{
     width:22%;
     float:left;
-    height: 1400px;
+    height: 800px;
     background:rgb(255, 255,255);
     /* border-right-color: black; */
     margin-left: 0px;
+    border-style: solid;
+    border-color: rgb(78, 71, 71);
+    border-width: 0.5px;
+    border-left-style: dashed;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-top-style: none;
+
 
 }
 .main::after{
@@ -53,7 +86,9 @@ section h3{
 }
 .main *{
     /* border-radius: 10px; */
-     border-color: azure;
+     /* border-color: rgb(97, 104, 104);
+     border-width: 2px;
+      */
 }
 .main{
     margin: 10px 0px;
